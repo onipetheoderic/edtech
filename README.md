@@ -1,8 +1,9 @@
 # Installation Process
 1) Run this command ` cp .env.example .env`
 2) If you have postgresql installed run this command `createdb prompt`
-3) then run `yarn install` 
-4) then run `yarn dev `
+3) then run the command within the root directory of the app: `npx prisma db push`
+4) then run `yarn install` 
+5) then run `yarn dev `
 
 
 # Run application
